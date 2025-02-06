@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import productRoutes from "./routes/ProductRoutes";
-import { setupSwagger } from "./config/swagger";
+import { setupSwagger } from "./infra/config/swagger";
 
 const fastify = Fastify({ logger: true });
 

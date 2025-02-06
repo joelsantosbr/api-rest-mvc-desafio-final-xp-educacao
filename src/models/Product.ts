@@ -1,6 +1,6 @@
 import sqlite3 from "sqlite3";
 
-import database from "../database";
+import database from "../infra/database";
 import { Product } from "../domain/entities/Product";
 import { IProductModel } from "../domain/interfaces/IProductModel";
 
